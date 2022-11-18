@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PUZZLE</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="starting.css">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel:700|Fredericka+the+Great" rel="stylesheet">	
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <style type="text/css">
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+   <div id="content">
+
+     <h1>Sliding Puzzle</h1>
+
+     <h2>Enter a name: </h2>
+     <form action="eightpuzzle.php" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required=""><br>
+      <hr>
+      <button type="submit" class="btn btn-light " id="myButton"><i class="fas fa-gamepad"></i> Get Started!</button>
+    </form>
+
+  </div>
+</div>
+
+<script type="text/javascript">
+ document.getElementById("myButton").onclick = function () {
+  location.href = "eightpuzzle.php";
+};
+</script>
+</body>
+</html>
+
+

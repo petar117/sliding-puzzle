@@ -1,0 +1,7 @@
+------->	Subject: Homework I, Computer Practicum II
+------->	@Author: Todorovski Petar, en number: 89181109
+
+------->	NOTE_1: The page is using .php 
+			When connected to local host server, load file:
+			START_HERE.html
+		NOTE_2: Niether one of the sorce codes is optimized 
